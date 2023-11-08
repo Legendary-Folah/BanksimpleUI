@@ -12,10 +12,10 @@ class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<HomeScreen> createState() => HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class HomeScreenState extends State<HomeScreen> {
   // current selected
   int current = 0;
 
@@ -373,7 +373,7 @@ class OperationCard extends StatefulWidget {
   final String? selectedIcon;
   final String? unselectedIcon;
   final bool isSelected;
-  _HomeScreenState context;
+  HomeScreenState context;
 
   OperationCard(
       {Key? key,
