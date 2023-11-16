@@ -38,7 +38,7 @@ class HomeScreenState extends State<HomeScreen> {
           child: ListView(
             scrollDirection: Axis.vertical,
             physics: ClampingScrollPhysics(),
-            children: <Widget>[
+            children: [
               // Custom AppBar
               Container(
                 margin: EdgeInsets.only(left: 18, right: 18, top: 16),
@@ -381,7 +381,8 @@ class OperationCard extends StatefulWidget {
       required this.selectedIcon,
       required this.unselectedIcon,
       required this.isSelected,
-      required this.context})
+      required this.context
+      })
       : super(key: key);
 
   @override
