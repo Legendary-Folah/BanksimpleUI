@@ -41,7 +41,7 @@ class HomeScreenState extends State<HomeScreen> {
             children: [
               // Custom AppBar
               Container(
-                margin: EdgeInsets.only(left: 18, right: 20, top: 18),
+                margin: EdgeInsets.only(left: 18, right: 18, top: 18),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -60,7 +60,7 @@ class HomeScreenState extends State<HomeScreen> {
               ),
               // Card Section
               SizedBox(
-                height: 30.0,
+                height: 20.0,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0, bottom: 18.0),
@@ -76,7 +76,7 @@ class HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     SizedBox(
-                      height: 5.0,
+                      height: 8.0,
                     ),
                     Text('AMANDA ALEX',
                         style: GoogleFonts.inter(
