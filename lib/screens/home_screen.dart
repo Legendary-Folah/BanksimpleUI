@@ -41,7 +41,7 @@ class HomeScreenState extends State<HomeScreen> {
             children: [
               // Custom AppBar
               Container(
-                margin: EdgeInsets.only(left: 18, right: 18, top: 16),
+                margin: EdgeInsets.only(left: 18, right: 20, top: 20),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
