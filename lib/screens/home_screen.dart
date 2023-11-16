@@ -163,7 +163,7 @@ class HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             SizedBox(
-                              height: 10.0,
+                              height: 20.0,
                             ),
                             Positioned(
                               left: 25,
