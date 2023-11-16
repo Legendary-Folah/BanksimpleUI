@@ -41,7 +41,7 @@ class HomeScreenState extends State<HomeScreen> {
             children: [
               // Custom AppBar
               Container(
-                margin: EdgeInsets.only(left: 18, right: 20, top: 20),
+                margin: EdgeInsets.only(left: 18, right: 20, top: 18),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -58,10 +58,9 @@ class HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-
               // Card Section
               SizedBox(
-                height: 20.0,
+                height: 30.0,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0, bottom: 18.0),
